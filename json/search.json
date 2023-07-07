@@ -1,0 +1,38 @@
+{
+        "id": 2487134,
+        "geonameId": 2487134,
+        " type": "CITY",
+        "name": "Mostaganem",
+        "population": 130000,
+        "elevation": 102,
+        "timezoneId": "Africa/Algiers",
+        "country": {
+                "id": "DZ",
+                "geonameId": 2589581,
+                "name": "Algeria",
+                "localizedName": " الجزائر"
+        },
+        "adminDivision1": {
+                "id": "DZ.07",
+                "geonameId": 2487130,
+                "name": "Mostaganem Province",
+                "localizedName": " مستغانم"
+        },
+        "score": 10.113947,
+        "localizedName": " مستغانم",
+        "coordinates": {
+                "latitude": 35.9311,
+                "longitude": 0.08918
+        }
+}
+
+{place_id: 322531775647, osm_id: 5752724, osm_type: relation, licence: https: locationiq.com/attribution, lat: 35.928808, lon: 0.089978, boundingbox: [
+                35.9106743,
+                36.0387584,
+                0.0536192,
+                0.1767306
+        ], class: place, type: city, display_name: Mostaganem, Mostaganem district, Mostaganem,
+        27000, Algeria, display_place: Mostaganem, display_address: Mostaganem district,
+        27000, Algeria, address: {name: Mostaganem, county: Mostaganem district, state: Mostaganem, postcode: 27000, country: Algeria, country_code: dz
+        }
+}
