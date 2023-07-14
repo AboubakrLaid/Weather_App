@@ -12,7 +12,7 @@ ThemeData kDarkTheme = ThemeData(
   useMaterial3: true,
   primaryColor: const Color(0xFF4298B5),
   secondaryHeaderColor: const Color.fromRGBO(30, 30, 31, 1),
-  scaffoldBackgroundColor: const Color.fromRGBO(5, 7, 20, 1),
+  scaffoldBackgroundColor: const Color(0xFF050714),
   appBarTheme: const AppBarTheme(
     backgroundColor: Color.fromRGBO(5, 7, 20, 1),
     elevation: 0,

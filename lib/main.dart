@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:weather/screens/retrive_data.dart/retriving_data.dart';
 import 'package:weather/services/connectivity_service.dart';
 import 'package:weather/util/export.dart';
@@ -8,7 +9,8 @@ import 'package:weather/view_models/fetch_weather.dart';
 import 'package:weather/view_models/weather_data.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
 
   // init theme mode from app theme
   bool? temp = await localDB.isDarkMode();
@@ -41,6 +43,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+    FlutterNativeSplash.remove();
     appTheme.addListener(() => setState(() {}));
     appLanguage.addListener(() => setState(() {}));
 
